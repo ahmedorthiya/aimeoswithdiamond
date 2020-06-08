@@ -16,3 +16,21 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::group(['middleware'=>['auth:api']],function (){
+    Route::get("/me",'AuthController@me');
+    Route::get("/logout",'AuthController@logout');
+    Route::put("/update-address",'AddressController@updateAddress');
+
+});
+
+
+Route::post("/register",'AuthController@register');
+Route::post("/login",'AuthController@login');
+
+
+
+
+
+

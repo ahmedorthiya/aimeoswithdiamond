@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
+use Laravel\Passport\Passport;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -31,5 +32,7 @@ class AuthServiceProvider extends ServiceProvider
             }
             return app( '\Aimeos\Shop\Base\Support' )->checkUserGroup( $user, $roles );
         });
+
+        Passport::routes();
     }
 }
