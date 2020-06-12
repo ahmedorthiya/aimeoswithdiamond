@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a173da5d-27f7-42df-ab10-b8f3f3ebbbb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aimeoswithdiamond.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aimeoswithdiamond.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AddressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AddressController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/files/d/5/d5ce5d040c966d9ab4d534e8ad8e9a12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/preview/5/7/57729457aa99a86d54fe37876946f7ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/preview/8/1/816dd81131efa1240948ccf36b710b5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/preview/e/d/ed905cb09bd7bc33916832c8038578a0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +201,7 @@
       <workItem from="1591370002442" duration="1900000" />
       <workItem from="1591587375722" duration="260000" />
       <workItem from="1591592884598" duration="9412000" />
-      <workItem from="1591609070757" duration="10019000" />
+      <workItem from="1591609070757" duration="36175000" />
     </task>
     <servers />
   </component>
@@ -219,13 +213,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="359" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591609071647" />
-    <state x="369" y="85" width="694" height="558" key="find.popup" timestamp="1591604495988">
+    <state x="369" y="85" width="694" height="558" key="find.popup" timestamp="1591760743141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="369" y="85" width="694" height="558" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591604495988" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591625047479">
+    <state x="369" y="85" width="694" height="558" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591760743141" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591760869028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591625047479" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591760869028" />
   </component>
 </project>

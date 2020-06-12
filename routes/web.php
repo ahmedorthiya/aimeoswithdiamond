@@ -15,4 +15,12 @@ Route::get('/', function () {
     return redirect('shop');
 });
 
+Route::get("/session-lists",function ()git
+  // return \Illuminate\Support\Facades\Session::all();
+
+    $client = new GuzzleHttp\Client();
+    $res = $client->post('http://localhost:8000/jsonapi/basket?id=default&related=product&_token=JAjvHg5jeeiwR3LiFGpEo7Rox7j0dTHbf8DGn5nx',
+        ['data'=>[['attributes',]]]);
+});
+
 Auth::routes();

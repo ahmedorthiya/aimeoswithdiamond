@@ -20,5 +20,6 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
+      //  'jsonapi/*', // for all routes starting with api
     ];
 }
